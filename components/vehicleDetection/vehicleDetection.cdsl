@@ -1,0 +1,12 @@
+
+import "CameraSimple.idsl";
+
+Component vehicleDetection
+{
+	Communications
+	{
+		requires CameraSimple;
+	};
+	language python;
+};
+
